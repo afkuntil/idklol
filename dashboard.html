@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script src="https://browser.sentry-cdn.com/5.9.1/bundle.min.js" integrity="sha384-/x1aHz0nKRd6zVUazsV6CbQvjJvr6zQL2CHbQZf3yoLkezyEtZUpqUNnOLW9Nt3v" crossorigin="anonymous"></script>
+    <script>Sentry.init({ dsn: 'https://767b9a355f1a4161a911a6bfac66107b@sentry.io/1835833' });</script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>myCenter - Login to your Account</title>
+    <link rel="stylesheet" href="assets/css/auth.css%3Fv=2.css">
+    <link rel="icon" type="image/png" href="static/img/real_logo.png">
+</head>
+
+<body class="darkbright">
+    <div class="navigation">
+        <img src="assets/img/logo.png" style="width: 256px; height: 64px;" alt="logo"/>
+    </div>
+    <div class="utility-wrapper">
+        <div class="container-2 w-container">
+            <div class="form">
+                <h1>Login</h1>
+                <p class="db-paragraph">
+                    Create a myCenter account to gain access to cool features such as <strong>quiz mode</strong>, <strong>Roblox bots</strong>, and <strong>amazing integrations!</strong>
+                </p>
+            </div>
+            <div class="form w-form">
+                <form class="form" onsubmit="return false;">
+                    <label for="username">Roblox Username</label>
+                    <input type="text" class="input w-input" autofocus="true" maxlength="256" name="username" placeholder="Roblox Username" id="username" required/>
+                    <label for="password-2">Password</label>
+                    <input type="password" class="input w-input" maxlength="256" name="password" placeholder="Password" id="password" required/>
+                    <label for="2facode" id="2falabel" class="hide">2 Factor Code</label>
+                    <input  type="number" class="input w-input hide " maxlength="6" name="2facode" placeholder="2-Factor Code" id="twofactorcode"/>
+                    <div class="button-group">
+                        <button class="darkbright-button w-butto" id="login_button">Login</button>
+                        <a href="forgot/password.html" class="darkbright-button light-button w-button">Forgot Password</a>
+                    </div>
+                    <a href="signup.html" value="Create an Account" class="darkbright-button white w-button">Create an Account</a>
+                </form>
+                <p style="text-align: center;">or...</p>
+                <a style="display: inline-block;" href="https://discord.com/oauth2/authorize?client_id=768809014775119892&redirect_uri=https://darkbrightapi.my-center.net/auth/login/discord&response_type=code&scope=identify" class="darkbright-button white w-button">
+                    <span><img style="width: 30px; display: inline-block;" src="static/img/discord.svg" alt="discord"></span>
+                    <span style="display: inline-block;">Discord</span>
+
+                </a>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- myCenter -->
+                <ins class="adsbygoogle"
+                     style="display:inline-block;width:728px;height:90px"
+                     data-ad-client="ca-pub-2573266040786411"
+                     data-ad-slot="2283867466"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+        </div>
+    </div>
+    <div class="db-footer">
+        <div class="w-container">
+            <p class="db-paragraph">
+                <strong>Copyrighted 2021</strong>
+                <br/>
+                <br/>Developed by Matthew, Joel, and SimplyCon
+            </p>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LfsI8IUAAAAANaZQDmeE8BVxYpXnWxC1DKilD42"></script>
+<script src="assets/js/authentication/login.js%3Fcache=3"></script>
+
+</html>

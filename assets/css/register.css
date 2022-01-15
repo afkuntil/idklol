@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap');
+
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	
+	font-family: 'Cabin', sans-serif;
+	font-size: 12pt;
+
+	/*color: #8B8C89;	/* Subject to change based on theme */
+
+	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+	font-size: 18pt;
+}
+
+a:visited{
+    color: black;
+}
+
+.hide {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header > .top_bar {
+    width: 100vw;
+    height: 45px;
+    background-color: #29ABE2;
+}
+
+header > img {
+    margin-top: 25px;
+    width: 100px;
+}
+
+main {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 0px 30px;
+}
+
+main input, main button {
+    padding: 15px 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #222222;
+    margin-top: 10px;
+}
+
+main button {
+    cursor: pointer;
+    border: none;
+    background: #097DC4;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#validate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    
+}
+
+.hide {
+    display: none !important;
+}
+==
